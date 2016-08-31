@@ -1,5 +1,5 @@
-//= require store/shop
-//= require store/script
+//= require frontend/shop
+//= require frontend/script
 //= require spin
 //= require jquery.spin
 
