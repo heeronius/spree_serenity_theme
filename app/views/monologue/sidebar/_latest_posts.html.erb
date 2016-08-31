@@ -1,9 +1,0 @@
-<aside>
-    <h6><%= t ".title" %></h6>
-    <ul>
-      <% @recent_posts.each do |post| %>
-        <li><%= link_to post.title, post.full_url %></li>
-      <% end %>
-    </ul>
-</aside>
-
