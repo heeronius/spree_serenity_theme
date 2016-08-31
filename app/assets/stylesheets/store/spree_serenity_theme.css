@@ -1,8 +1,8 @@
 /*
- *= require store/bootstrap.min
- *= require store/font
- *= require store/spree_social_products
+ *= require frontend/bootstrap.min
+ *= require frontend/font
+ *= require frontend/spree_social_products
  *= require monologue
- *= require store/style
+ *= require frontend/style
 */
 
