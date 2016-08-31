@@ -10,8 +10,8 @@ module SpreeSerenityTheme
       end
 
       def add_stylesheets
-        inject_into_file 'app/assets/stylesheets/frontend/all.css', " *= require store/spree_serenity_theme\n", :before => /\*\//, :verbose => true
-        inject_into_file 'app/assets/stylesheets/backend/all.css', " *= require admin/spree_serenity_theme\n", :before => /\*\//, :verbose => true
+        inject_into_file 'app/assets/stylesheets/frontend/all.css', " *= require frontend/spree_serenity_theme\n", :before => /\*\//, :verbose => true
+        inject_into_file 'app/assets/stylesheets/backend/all.css', " *= require backend/spree_serenity_theme\n", :before => /\*\//, :verbose => true
       end
 
       def add_migrations
